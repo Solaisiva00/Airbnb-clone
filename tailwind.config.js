@@ -22,7 +22,8 @@ export default {
         light: "100",
       },
       width: {
-        176: "176px",
+        176: "11rem",
+        395.91: "24.744rem",
       },
     },
   },
