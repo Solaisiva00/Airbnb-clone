@@ -25,6 +25,9 @@ export default {
         176: "11rem",
         395.91: "24.744rem",
       },
+      flex:{
+        2:"0 0 auto"
+      }
     },
   },
   plugins: [],
