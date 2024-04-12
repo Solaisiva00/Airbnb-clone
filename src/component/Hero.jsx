@@ -1,13 +1,13 @@
 import image from "../images/image.svg";
 const Hero = () => {
   return (
-    <section>
-      <img src={image} alt="" className="px-10 my-14 mx-auto w-395.91 h-232 lg:h-80vh lg:w-auto  lg:drop-shadow-md " />
-      <div className="md:p-20 md:space-y-4 lg:h-40vh ">
-        <h1 className=" px-10 text-head font-semibold font-poppins md:text-5xl ">
+    <section className="px-10 md:my-20">
+      <img src={image} alt="" className="mx-auto h-50vh md:h-80vh md:w-auto  lg:drop-shadow-md  " />
+      <div className="md:px-20 md:py-20 md:space-y-4 md:h-20vh ">
+        <h1 className="text-head font-semibold font-poppins md:text-5xl ">
           Online Experience
         </h1>
-        <p className="px-10 my-2 text-sm font-light md:text-xl">
+        <p className="mt-2 md:mt-5 text-sm font-light md:text-2xl">
           Join unique interactive activities led by one-of-a-kind hosts—all
           without leaving home.
         </p>

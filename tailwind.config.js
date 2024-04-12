@@ -10,7 +10,9 @@ export default {
         "20vh": "20vh",
         "30vh": "30vh",
         "40vh": "40vh",
+        "50vh": "50vh",
         "80vh": "80vh",
+        "100vh": "100vh",
         232: "232px",
       },
       fontSize: {
@@ -25,9 +27,9 @@ export default {
         176: "11rem",
         395.91: "24.744rem",
       },
-      flex:{
-        2:"0 0 auto"
-      }
+      flex: {
+        2: "0 0 auto",
+      },
     },
   },
   plugins: [],

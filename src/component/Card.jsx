@@ -1,7 +1,7 @@
 import star from "../images/star.svg";
 const Card = (prop) => {
   return (
-      <div className="my-10 md:my-4 md:px-20 flex-2">
+      <div className="my-8 md:mx-auto flex-2">
         <img src={`Airbnb-clone/src/images/${prop.img}`}alt=""  className="rounded-lg h-232 w-176" />
         <div className="text-xs p-3 space-y-2">
           <div className="flex">
