@@ -18,7 +18,8 @@ export default {
       fontSize: {
         head: "36px",
         sm: "16px",
-        xs: "12px",
+        ts: "9px",
+        xs:"12px"
       },
       fontWeight: {
         light: "100",
