@@ -2,7 +2,7 @@ import star from "../images/star.svg";
 const Card = (prop) => {
   return (
       <div className="my-8 md:mx-auto flex-2">
-        <img src={`./images/${prop.img}`}alt=""  className="rounded-lg h-232 w-176" />
+        <img src={prop.img}alt=""  className="rounded-lg h-232 w-176" loading="lazy"/>
         <div className="text-xs p-3 space-y-2">
           <div className="flex">
             <img src={star} alt="" />
