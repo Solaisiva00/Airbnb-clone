@@ -7,9 +7,14 @@ import { useEffect, useState } from "react";
 const Layout = () => {
   const [load, setLoad] = useState(false);
   useEffect(() => {
+    window.onload = () => {
       setTimeout(() => {
-        setLoad((prev) => !prev);
+        setLoad((pre) => !pre);
       },3000);
+    };
+    return () => {
+      window.onload = null;
+    };
   }, []);
   const cards = Data.map((item) => {
     return <Card key={item.id} {...item} />;

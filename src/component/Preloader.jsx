@@ -10,7 +10,7 @@ const Preloader = () => {
           className="animate-bounce"
         />
       </div>
-      <p className="absolute bottom-10 text-center spacing text-slate-700 text-lg tracking-widest ">Powered by &copy;<span className="text-black font-bold font-poppins" > RavaN</span></p>
+      <p className="absolute bottom-[10%] text-center spacing text-slate-700 text-lg tracking-widest ">Powered by &copy;<span className="text-black font-bold font-poppins" > RavaN</span></p>
     </div>
   );
 };
